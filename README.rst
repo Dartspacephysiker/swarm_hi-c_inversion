@@ -1,3 +1,6 @@
+|DOI| 
+
+
 Swarm Hi-C inversion code. Adapted (with heavy modifications) from Karl Laundal's AMPS inversion code.
 
 There are two parts to this code. In the data_preparation folder, there are scripts that are used to produce a static datafile which is later used as input in the inversion code. This is in the data_preparation folder. The inversion code is included in the base directory. 
@@ -44,3 +47,7 @@ Python dependencies
 - spacepy
 - wget
 - zipfile
+
+
+.. |DOI| image:: https://zenodo.org/badge/674153432.svg
+        :target: https://zenodo.org/badge/latestdoi/674153432
