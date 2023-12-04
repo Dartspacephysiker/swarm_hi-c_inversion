@@ -3,6 +3,8 @@
 
 Swarm Hi-C inversion code. Adapted (with heavy modifications) from Karl Laundal's AMPS inversion code.
 
+This code was used to produce model coefficients for the Swipe model. The forward model is available here: https://zenodo.org/badge/latestdoi/685879333 (latest development version available at https://github.com/Dartspacephysiker/pyswipe)
+
 There are two parts to this code. In the data_preparation folder, there are scripts that are used to produce a static datafile which is later used as input in the inversion code. This is in the data_preparation folder. The inversion code is included in the base directory. 
 
 The data preparation files do the following:
@@ -47,6 +49,15 @@ Python dependencies
 - spacepy
 - wget
 - zipfile
+
+
+Acknowledgments
+---------------
+The code is produced with support from the European Space Agency through the Swarm Data Innovation and Science Cluster (Swarm DISC), ESA Contract no. 4000109587/13/I-NB. 
+
+For more information on the Swipe project, please visit https://earth.esa.int/eogateway/activities/swipe
+
+For more information on Swarm DISC, please visit https://earth.esa.int/web/guest/missions/esa-eo-missions/swarm/disc
 
 
 .. |DOI| image:: https://zenodo.org/badge/674153432.svg
